@@ -1,0 +1,6 @@
+parameters:
+    chat_bot.token: '%env(CHAT_BOT_TOKEN)%'
+
+    router.request_context.host: '%env(WEB_HOST)%'
+    router.request_context.scheme: 'https'
+    router.request_context.base_url: '%env(WEB_BASE_URL)%'

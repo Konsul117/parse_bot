@@ -1,0 +1,4 @@
+framework:
+    cache:
+        app: cache.adapter.memcached
+        default_memcached_provider: '%env(resolve:MEMCACHED_URL)%'
